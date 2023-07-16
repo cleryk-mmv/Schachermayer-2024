@@ -1,0 +1,15 @@
+.footer {
+
+  --#{$prefix-my}footer-bg: #{$gray-200};
+  --#{$prefix-my}footer-font-size: #{map-get($font-sizes, 'lg')};
+  --#{$prefix-my}footer-padding: 3.75rem;
+
+  background: var(--#{$prefix-my}footer-bg);
+  padding: var(--#{$prefix-my}footer-padding) 0;
+  font-size: var(--#{$prefix-my}footer-font-size);
+
+  a {
+    color: inherit;
+  }
+
+}

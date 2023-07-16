@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+$prefix-my: 'sk-';
+@import "common/fonts";
+
+@import "bootstrap/functions";
+
+@import "variables";
+
+@import "bootstrap/bootstrap";
+
+@import "common/icons";
+@import "common/notify";
+@import "common/scrollbar";
+@import "common/slick";
+
+@import "common/page";
+@import "common/header";
+@import "common/footer";
+
+
+@import "components/buttons";
+
+
+\:focus {
+  outline: 0 !important;
+}
+
+.abs-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

@@ -1,0 +1,16 @@
+.header {
+  --#{$prefix}nav-link-font-weight: #{$font-weight-semibold};
+  --#{$prefix-my}nav-link-border-width: #{$border-width};
+  --#{$prefix-my}nav-link-border-color: #{$border-color};
+  --#{$prefix-my}header-bg: #{white};
+
+  transition: $transition-base;
+  background-color: var(--#{$prefix-my}header-bg);
+  box-shadow: 0 .5rem 1rem rgba($black, .15);
+}
+
+
+.header-placeholder {
+  height: 57px;
+}
+

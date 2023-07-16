@@ -1,0 +1,38 @@
+@@include('inc/header.html')
+
+<div class="body-loading d-none">
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Page laoded</span>
+  </div>
+</div>
+
+<div class="page-wrap">  
+
+  @@include('inc/nav/nav.html')
+
+  <main class="page-inner">
+
+
+    <div class="page-header">
+      <div class="container">
+        <h1 class="text-primary">Pages</h1>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="container text-secondary">
+        page-content
+      </div>
+    </div>
+
+
+  </main>
+  
+  @@include("inc/footer/modals.html")
+  @@include("inc/footer/content.html")
+
+  <a href="#body-top" scroll-page class="to-top"></a>
+  
+</div>
+
+@@include('inc/footer.html')
